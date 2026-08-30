@@ -51,15 +51,23 @@
   }
 
   &__location,
+  &__rooms {
+    margin-top: 2.5rem;
+  }
+
+  &__location,
   &__rooms,
   &__area,
   &__price {
+    font-size: 1.5rem;
+    margin-left: 2rem;
+
+    display: flex;
+    align-items: center;
     i {
       font-size: 2rem;
       color: $color-primary;
-    }
-
-    p {
+      margin-right: 1rem;
     }
   }
 
